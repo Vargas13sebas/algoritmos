@@ -1,3 +1,25 @@
+Algoritmo escribe_holamundo
+	escribir "hola mundo!"
+	
+FinAlgoritmo
+Algoritmo f_celsius
+	Escribir "ingrese el valor en farenheits que desea transformar"
+	leer a
+	f<-(a-32)*(5/9)
+	escribir "la medida en celsius es: " f
+	
+FinAlgoritmo
+Algoritmo hipotenusa
+	definir a, b, suma, res Como Real
+	escribir "ingrese la medida de uno de los catetos"
+	leer a
+	escribir "ingrese la medida del otro cateto"
+	leer b
+	suma<-(a*a)+(b*b)
+	res<-raiz(suma)
+	escribir "la hipotenusa del triangulo es " res
+	
+FinAlgoritmo
 Algoritmo media_3_numeros
 	Escribir "digite 3 numeros para calcular la media"
 	leer a, b, c
@@ -15,7 +37,6 @@ Algoritmo minutos_horas
 	Fin Mientras
 	escribir b "minutos son " h " horas y " a " minutos"
 FinAlgoritmo
-
 Algoritmo per_area
 	escribir "ingrese la distancia de la altura del triangulo"
 	definir a, b Como Real
